@@ -1,0 +1,128 @@
+linux
+	commands :- done
+
+AWS
+	services :- almost (pending few services)
+	EC2:-
+			
+	vpc :-
+			
+	rds :-
+			
+	s3 :-
+			
+	IAM :-
+			
+	lambda :-
+			
+	cloudwatch :-
+			
+	SNS :-
+			Amazon Simple Notification Service (SNS) sends notifications two ways, A2A and A2P. A2A
+			provides high-throughput, push-based, many-to-many messaging between distributed systems,
+			microservices, and event-driven serverless applications. These applications include Amazon
+			Simple Queue Service (SQS), Amazon Kinesis Data Firehose, AWS Lambda, and other HTTPS
+			endpoints. A2P functionality lets you send messages to your customers with SMS texts, push
+			notifications, and email. 
+			
+	cloud trail :-
+			AWS CloudTrail is an AWS service that helps you enable operational and risk auditing,
+			governance, and compliance of your AWS account. Actions taken by a user, role, or an AWS
+			service are recorded as events in CloudTrail. Events include actions taken in the AWS
+			Management Console, AWS Command Line Interface, and AWS SDKs and APIs.
+			
+	cloud front :-
+			Amazon CloudFront is a web service that speeds up distribution of your static and dynamic
+			web content, such as .html, .css, .js, and image files, to your users. CloudFront delivers
+			your content through a worldwide network of data centers called edge locations. When a
+			user requests content that you're serving with CloudFront, the request is routed to the
+			edge location that provides the lowest latency (time delay), so that content is delivered
+			with the best possible performance.
+			If the content is already in the edge location with the lowest latency, CloudFront
+			delivers it immediately.
+			If the content is not in that edge location, CloudFront retrieves it from an origin that
+			you've defined—such as an Amazon S3 bucket, a MediaPackage channel, or an HTTP server (for
+			example, a web server) that you have identified as the source for the definitive version of
+			your content.
+
+	route 53 :-
+			Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service.
+			Route 53 connects user requests to internet applications running on AWS or on-premises.
+		
+		
+	AWS Artifact :-
+			AWS Artifact provides on-demand downloads of AWS security and compliance documents, such
+			as AWS ISO certifications, Payment Card Industry (PCI) reports, and Service Organization
+			Control (SOC) reports. You can submit the security and compliance documents (also known as
+			audit artifacts) to your auditors or regulators to demonstrate the security
+			and compliance of the AWS infrastructure and services that you use.
+	
+	
+	
+	
+	other topics:-
+		Global accelerator :-
+			AWS Global Accelerator is a networking service that helps you improve the availability,
+			performance, and security of your public applications. Global Accelerator provides two
+			global static public IPs that act as a fixed entry point to your application endpoints,
+			such as Application Load Balancers, Network Load Balancers, Amazon Elastic Compute Cloud
+			(EC2) instances, and elastic IPs.
+
+		auto scaling :-
+			AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain
+			steady, predictable performance at the lowest possible cost. Using AWS Auto Scaling, it’s
+			easy to setup application scaling for multiple resources across multiple services in
+			minutes.
+			
+		transit gateway:-
+			AWS Transit Gateway connects your Amazon Virtual Private Clouds (VPCs) and on-premises
+			networks through a central hub. This connection simplifies your network and puts an end to
+			complex peering relationships. Transit Gateway acts as a highly scalable cloud router—each
+			new connection is made only once.
+
+
+		site to site VPN :-
+		
+			instances that you launch into an Amazon VPC can't communicate with your own (remote)
+			network. You can enable access to your remote network from your VPC by creating an AWS
+			Site-to-Site VPN (Site-to-Site VPN) connection, and configuring routing to pass traffic
+			through the connection.
+			
+			Customer gateway:
+			An AWS resource which provides information to AWS about your customer gateway device.
+			
+			Virtual private gateway:-
+			A virtual private gateway is the VPN endpoint on the Amazon side of your Site-to-Site VPN
+			connection that can be attached to a single VPC.
+
+
+	Nginx :- done
+	
+		It is an open-source, fast, lightweight and high-performance web server that can be used to serve
+		static files.
+		we can say that Nginx is just a kind of software that is used in web servers to serve concurrent
+		requests.
+		Previously we used to install Apache in web servers to handle these functions, but as the world,
+		in growing and demanding more things at one time, the term concurrency comes into the world and
+		nginx launched for the same thing.
+
+Freelancer
+	zimbra :- basics done
+		Zimbra is a collaborative computer program that is composed of emails, calendars, contacts,
+		documents, etc. That is, it is a web-based application package that can be deployed as an on
+		premises private cloud or in the form of an external public cloud service.
+		The software consists of both client and server components. Zimbra also provides native two-way
+		sync to many mobile devices.
+	LAMP server :- done
+		linux , apache, mysql, php-perl-python
+	phpmyadmin :- done
+		phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL 
+		ver the Web. phpMyAdmin supports a wide range of operations on MySQL and MariaDB. Frequently used
+		operations (managing databases, tables, columns, relations, indexes, users, permissions, etc) can
+		be performed via the user interface, while you still have the ability to directly execute any SQL
+		statement.
+
+
+	
+
+	
